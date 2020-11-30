@@ -11,8 +11,8 @@ var uniqueProducts = array.filter( function (elem, i, array) {
 });
 
 /**
-   Array.prototype.filter()
-
+ * Array.prototype.filter()
+ *
  * Cria um novo array com todos elementos que
  * passram no teste ad funçaõ
  * 
@@ -20,8 +20,22 @@ var uniqueProducts = array.filter( function (elem, i, array) {
  */
 
 /**
- *Exemplo: 
- *filter([🍔,🍟,🍗,🍿], isVegetarian) => [🍟,🍿]
+ * Exemplo: 
+ * filter([🍔,🍟,🍗,🍿], isVegetarian) => [🍟,🍿]
+ */
+
+ /**
+  * Array.prototype.map()
+  * 
+  * Chama o callback para cada elemento e devolve um
+  * novo array com a mesma quantidade de itens
+  * 
+  * var newArray = arr.map(callback[,thisArg])
+  */
+
+  /**
+ * Exemplo: 
+ * map([🐄,🥔,🐔,🌽], cook) => [🍔,🍟,🍗,🍿]
  */
 
 
