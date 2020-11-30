@@ -38,4 +38,18 @@ var uniqueProducts = array.filter( function (elem, i, array) {
  * map([🐄,🥔,🐔,🌽], cook) => [🍔,🍟,🍗,🍿]
  */
 
+ /**
+  * Array.prototype.reduce()
+  * 
+  * Executa uma função para cada elemento
+  * retornando um único valor de retorno
+  * 
+  * var newArray = arr.map(callback[,valorInicial])
+  */
+
+  /**
+   * Exemplo
+   * reduce([🍔,🍟,🍗,🍿], eat) => 💩
+   */
+
 
