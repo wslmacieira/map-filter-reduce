@@ -2,11 +2,15 @@
 
 - [x] Map
 
+  Exemplo:
+
   map([:cow: ,🥔,🐔,🌽], cook) => [🍔,🍟,🍗,🍿] 
 
   
 
 - [x] Filter
+
+  Exemplo
 
   filter([🍔,🍟,🍗,🍿], isVegetarian) => [🍟,🍿]
 
@@ -14,7 +18,9 @@
 
 - [x] Reduce
 
-  reduce([🍔,🍟,🍗,🍿], eat) => 💩
+  Exemplo:
 
+  reduce([🍔,🍟,🍗,🍿], eat) => 💩
+  
   
 
