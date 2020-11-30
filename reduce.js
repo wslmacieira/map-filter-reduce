@@ -42,3 +42,11 @@ const totalWeightPorType = pets.reduce((total, pet) => {
 }, 0);
 
 console.log(totalWeightPorType);
+
+const totalWeightDogs = pets.filter((pet) => {
+  return pet.type === 'dog'
+}).reduce((total, pet) => {
+  return total + pet.weight
+}, 0);
+
+console.log(totalWeightDogs);
